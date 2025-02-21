@@ -1,56 +1,22 @@
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head data-resource-set="Resource">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" media="all">
-    <title data-resource-id="HomeTitle">HCPS Password Reset
-    </title>
-    <!--[if lt IE 9]>
-    <link href="css/ie/ie8.css" rel="stylesheet" type="text/css" media="all">
-    <script src="scripts/ie/css3-mediaqueries.min.js"></script>
-    <script src="scripts/ie/html5shiv.min.js"></script>
-    <![endif]-->
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="114×114" href="apple-touch-icon-114×114.png" />
-    <link rel="apple-touch-icon" sizes="72×72" href="apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114×114" href="apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72×72" href="apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="touch-icon-iphone-precomposed.png" />
-    
-
-    <style id="antiClickjack">
-        body {
-            display: none !important;
-        }
-    </style>
-    <script type="text/javascript">
-        if (self === top) {
-            var antiClickjack = document.getElementById("antiClickjack");
-            antiClickjack.parentNode.removeChild(antiClickjack);
-        } else {
-            top.location = self.location;
-        }
-    </script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <title data-resource-id="HomeTitle">HCPS Password Reset</title>
 </head>
 <body class="" data-resource-set="Resource">
     <form id="form1" name="form1" method="post" action="Login.aspx">
         <div class="wrapper row3">
             <div id="container2">
-                <!-- S/E Messages -->
                 <span id="ResourceEditorHeader"></span>
             </div>
         </div>
         <div class="wrapper row1">
             <header id="header" class="full_width">
                 <div id="logo">
-                    <img src="img/logo_bg.jpg" alt="Logo" />
+                    <!-- Removed logo image -->
                 </div>
             </header>
         </div>
@@ -64,12 +30,8 @@
                         </p>
                     </div>
                 </div>
-                
-                
-                
                 <section class="last clear">
                     <div class="two_third first">
-                        
                         <div class="step-nav">
                             <ol class="steps">
                                 <li class="step1 step-active"><span class="snumber snumber-active">1</span><span data-resource-id="Home">Home</span></li>
@@ -79,15 +41,12 @@
                                 <li class="step5"><span class="snumber">5</span><span data-resource-id="Review">Review</span></li>
                             </ol>
                         </div>
-                        
                     </div>
                     <div class="one_third">
-                        
                         <p id="help-button" class="button small gradient help rnd5 fl_right">
                             <span id="jqueryqtip">
                                 <span data-resource-id="Help">Help with this page</span></span><span data-resource-id="HomeHelpText"></span>
                         </p>
-                        
                     </div>
                 </section>
             </div>
@@ -99,226 +58,69 @@
                     <section class="last clear">
                         <div class="promoLogo pad30l_r">
                             <p class="ssLogo">
-                                <span data-resource-id="HomeTitleSelf">
-                                    HCPS</span><span class="ssLogo_color" data-resource-id="HomeTitleServe"> Password Reset</span>
+                                <span data-resource-id="HomeTitleSelf">HCPS</span><span class="ssLogo_color" data-resource-id="HomeTitleServe"> Password Reset</span>
                             </p>
                             <p><span data-resource-id="HomeMainTitle">Welcome to Hillsborough County Public Schools Password Management!</span></p>
                             <br>
-
-                            
                         </div>
-
-                        <!-- Notification Code -->
-                        
-                        <!-- Notification Code -->
-
-                        <!-- Custom Option -->
-                        
-
-                        <!-- New User Setup -->
-                        
-
-                        <!-- Password Change -->
-                        
-
-                        <!-- Password Reset -->
-                        
                         <div class="two_third nogutter home_sectionWrap">
-                            
-                            <h5 class="center home_title_height" style="font-size: 25px; font-weight: bold;"><span data-resource-id="HomePasswordResetTitle">
-                                Password Reset</span></h5>
-                            
-                            <p class="center">
-                                <img src="img/icons_password.png" id="Img4" alt="Password Reset Icon" />
-                            </p>
+                            <h5 class="center home_title_height" style="font-size: 25px; font-weight: bold;"><span data-resource-id="HomePasswordResetTitle">Password Reset</span></h5>
                             <p class="center home_text_height pad5l_r">
                                 <span data-resource-id="HomePasswordResetText">Reset your password.</span>
                             </p>
                             <p class="center">
                                 <label title="Click here to reset your Network Accounts."> 
                                     <a href="javascript:form1.submit()" onclick="javascript:submittype('RESET')" class="button small gradient home rnd5" style="background: #76364e;">
-                                        <span data-resource-id="HomePasswordResetButton">
-                                            Go to Reset Tool</span></a>
-                                        <span data-resource-id="PasswordResetButtonHoverText"></span>
-                                    </label>
+                                        <span data-resource-id="HomePasswordResetButton">Go to Reset Tool</span>
+                                    </a>
+                                </label>
                             </p>
                         </div>
-                        
 
-                        <!-- Update Profile -->
-                        
-                            <div class="nogutter home_sectionWrap" >
-                            
-                            <h5 class="center home_title_height"><span data-resource-id="HomeChallengeTitle">
-                                Update Profile</span></h5>
-                            
-                            <p class="center">
-                                <img src="img/icons_challenge.png" id="Img3" alt="Update Profile Icon" />
-                            </p>
+                        <div class="nogutter home_sectionWrap">
+                            <h5 class="center home_title_height"><span data-resource-id="HomeChallengeTitle">Update Profile</span></h5>
                             <p class="center home_text_height pad5l_r">
                                 <span data-resource-id="HomeChallengeText">Update challenge questions, phone number, and alternate email.</span>
                             </p>
                             <p class="center">
                                 <label title="Click here to update your profile.">
-                                    <a href="javascript:form1.submit()" onclick="javascript:submittype('CHALLENGE')"
-                                        class="button small gradient home rnd5"><span data-resource-id="HomeChallengeButton">
-                                            Go to Update Tool</span></a>
-                                    <span data-resource-id="UpdateProfileButtonHoverText"></span>
-                                    </label>		
+                                    <a href="javascript:form1.submit()" onclick="javascript:submittype('CHALLENGE')" class="button small gradient home rnd5">
+                                        <span data-resource-id="HomeChallengeButton">Go to Update Tool</span>
+                                    </a>
+                                </label>        
                             </p>
                         </div>
-                        
-
-                        <!-- Account Unlock -->
-                        
-
-                        <!-- OAR Options -->
-                        
                     </section>
                 </div>
-                <div class="clear" />
             </div>
         </div>
-        <!-- Footer -->
         <div class="wrapper row4">
             <div id="footer" class="clear">
                 <p style="width: 300px;" class="fl_left">
-                    
-                    <label data-resource-id="HomeLanguageSelection">
-                        Language Selection:</label>
+                    <label data-resource-id="HomeLanguageSelection">Language Selection:</label>
                     <select id="languageSelection_ddl" name="languageSelection_ddl" class="ddl_custom" onchange="navigateTo(this, 'window', false);">
-                        
-                        <option value="?lang=en-US">
-                            English
-
-                        </option>
-                        
-                        <option value="?lang=fr-FR">
-                            Française
-
-                        </option>
-                        
-                        <option value="?lang=es-ES">
-                            Español
-
-                        </option>
-                        
-                        <option value="?lang=de-DE">
-                            Deutsch
-
-                        </option>
-                        
-                        <option value="?lang=ja-JP">
-                            日本語版
-
-                        </option>
-                        
-                        <option value="?lang=zh-Hans">
-                            中国的
-
-                        </option>
-                        
-                        <option value="?lang=vi">
-                            Việt
-
-                        </option>
-                        
-                        <option value="?lang=fil-PH">
-                            Pilipino
-
-                        </option>
-                        
-                        <option value="?lang=ko">
-                            한국의
-
-                        </option>
-                        
-                        <option value="?lang=pt-BR">
-                            Portuguesa
-
-                        </option>
-                        
-                        <option value="?lang=it-IT">
-                            Italiano
-
-                        </option>
-                        
-                        <option value="?lang=ru-RU">
-                            русский
-
-                        </option>
-                        
-                        <option value="?lang=pl-PL">
-                            Polski
-
-                        </option>
-                        
-                        <option value="?lang=fr-CA">
-                            Française Canadien
-
-                        </option>
-                        
+                        <option value="?lang=en-US">English</option>
+                        <option value="?lang=fr-FR">Française</option>
+                        <option value="?lang=es-ES">Español</option>
+                        <option value="?lang=de-DE">Deutsch</option>
+                        <option value="?lang=ja-JP">日本語版</option>
+                        <option value="?lang=zh-Hans">中国的</option>
+                        <option value="?lang=vi">Việt</option>
+                        <option value="?lang=fil-PH">Pilipino</option>
+                        <option value="?lang=ko">한국의</option>
+                        <option value="?lang=pt-BR">Portuguesa</option>
+                        <option value="?lang=it-IT">Italiano</option>
+                        <option value="?lang=ru-RU">русский</option>
+                        <option value="?lang=pl-PL">Polski</option>
+                        <option value="?lang=fr-CA">Française Canadien</option>
                     </select>
-                    
                 </p>
                 <p class="fl_right">
-                    <img src="img/react_logo.png" alt="ReACT Logo" />
+                    <!-- Removed ReACT logo image -->
                 </p>
             </div>
         </div>
         <input type="hidden" value="" name="SUBMITTYPE" id="SUBMITTYPE">
     </form>
-    <!-- Scripts -->
-    <script type="text/jscript" src="scripts/jquery-latest.min.js"></script>
-    <script type="text/jscript" src="scripts/jquery-ui.min.js"></script>
-    
-    <script type="text/javascript" src="scripts/CultureSwitcher.js"></script>
-    <script type="text/jscript">jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
-    <script type="text/jscript" src="scripts/custom.js"></script>
-    <script type="text/javascript" src="scripts/jquery.tooltip.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.qtip-1.0.0-rc3.min.js"></script>
-    
-    <script type="text/javascript">
-        $(function () {
-            var msg = "<![CDATA[<br /><strong>Account Self-Service</strong><br /><p>Self-Service Password Reset portal allows you to reset your system password(s) and update authentication methods. To access the Self-Service Password Reset portal, you must first provide a valid userID. If you are unaware of your userID, you will need to contact the ITS Helpdesk at 813.744.6673 for further assistance. In the event that a UserID is locked, disabled, or not recognized, you will receive a message with additional instructions.</p>"
-                $("#jqueryqtip").qtip({
-                    position: { target: 'mouse', adjust: { x: -200, y: 20 } },
-                    style: {
-                        width: 350
-                    },
-                    content: msg
-                });
-        });
-    </script>
-    <script type="text/javascript">
-        function submittype(mtype) {
-            document.form1.SUBMITTYPE.value = mtype;
-            document.form1.submit();
-        }
-    </script>
-
-    <script type="text/javascript">
-        function removeErrorMessage() {
-            document.getElementById("showerror").style.display = 'none';
-        }
-        function removeSuccessMessage() {
-            document.getElementById("lblsuccess").style.display = 'none';
-        }
-    </script>
-
-    <script type="text/javascript">
-        //Control ReACT Window
-
-        //WINDOW OPTIONS
-        //height=pixels	        The height of the window. 
-        //left=pixels	        The left position of the window. (Moves the window right from LEFT of the screen)
-        //resizable=yes|no	    Whether or not the window is resizable. IE only
-        //top=pixels	        The top position of the window. (Moves the window down from TOP of the screen)
-        //width=pixels	        The width of the window.
-
-        function callReACT() {
-            var myWindow = window.open("http://txrctp01/react/", "_blank", "width=550,height=400,top=200,left=300,resizable=yes");
-        }
-    </script>
 </body>
 </html>
