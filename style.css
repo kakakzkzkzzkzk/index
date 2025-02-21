@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Header Styles */
+#header {
+    background-color: #2d3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo {
+    display: inline-block;
+}
+
+/* Form Section */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button,
+a.button {
+    padding: 10px 20px;
+    background-color: #76364e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover,
+a.button:hover {
+    background-color: #5a2d3c;
+}
+
+/* Section Titles */
+h5.center {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.home_sectionWrap {
+    margin-bottom: 30px;
+}
+
+/* Step Navigation */
+.step-nav ol {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.step-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.step-nav .snumber {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color: #333;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.step-nav .step-active .snumber {
+    background-color: #76364e;
+    color: white;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#footer select {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer .fl_left {
+    float: left;
+}
+
+#footer .fl_right {
+    float: right;
+}
+
+#footer img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+/* Button Styles for Help Button */
+#help-button {
+    background-color: #008cba;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#help-button:hover {
+    background-color: #005f75;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    .two_third, .one_third {
+        width: 100%;
+        margin: 0;
+    }
+
+    .step-nav ol {
+        text-align: left;
+    }
+
+    .step-nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #footer select {
+        width: 100%;
+    }
+}
